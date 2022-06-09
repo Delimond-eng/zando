@@ -12,7 +12,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  get: ^4.1.4
+  get: 4.6.1
   get_storage: ^2.0.2
   data_table_2: ^2.0.3
   percent_indicator: "^2.1.7+2"

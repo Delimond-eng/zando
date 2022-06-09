@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:zando/global/date_formater.dart';
 import 'package:zando/global/style.dart';
 
 class InputText extends StatefulWidget {
@@ -205,12 +204,6 @@ class _InputTextState extends State<InputText> {
                   ),
                   counterText: '',
                 ),
-                inputFormatters: [
-                  // ignore: deprecated_member_use
-                  WhitelistingTextInputFormatter(RegExp("[0-9/]")),
-                  LengthLimitingTextInputFormatter(10),
-                  DateFormatter(),
-                ],
               );
   }
 }
